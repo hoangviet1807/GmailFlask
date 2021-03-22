@@ -16,7 +16,7 @@ app.config['USE_SESSION_FOR_NEXT'] = True
 
 
 global COOKIE_TIME_OUT
-COOKIE_TIME_OUT = 60*5 
+COOKIE_TIME_OUT = 0
 
 mail = Mail(app)
 
